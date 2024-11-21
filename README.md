@@ -73,12 +73,12 @@ Each item represents a new requirement, simulating a scenario where tasks evolve
 3. **Fetch customers**
     - Define a `Customer` type with attributes for each field in the `customers` table, including `loyalty_points`.
     - Develop a view or an API endpoint (or both, you can decide), that lists customers in the database
-    - It should be filterable on some attrbutes (e.g., by a date range or spending threshold)
+    - It should be filterable on some attributes (e.g., by a date range or spending threshold)
     - If you've built an API endpoint, it should return a JSON response which is backed by an array of Customer instances before being serialized.
         - Do not return raw data structures directly, such as an associative array shaped like a customer.
 4. **Calculate customer Loyalty Points**
     - Requires a new field to be added on the `Customer` type and the `customer` table
-    - This should only be done _once_ initialy and persisted.
+    - This should only be done _once_ initially and persisted.
     - Calculate loyalty points for each customer
         - For every $10 spent, award 1 loyalty point
         - For every 10 purchases, award an additional 10 loyalty points
