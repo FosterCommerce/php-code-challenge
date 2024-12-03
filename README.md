@@ -25,7 +25,7 @@ You may use packages that assist in development (e.g., CSV parsing), but avoid u
 ## Framework
 
 - You may use any PHP web framework you’re comfortable with to complete this assessment (We prefer CraftCMS/Yii2 or Laravel) or none at all, it’s up to you.
-- Should you choose to build just the API, include a [Bruno](https://www.usebruno.com/) collection for easier reviewing and relevant documentation.
+- Should you choose to build just the API, include Swagger/OpenAPI docs and UI _or_ a [Bruno](https://www.usebruno.com/) collection for easier reviewing.
 - The standards and best practices for your framework of choice should be followed.
 
 ## Database Setup
